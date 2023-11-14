@@ -1,0 +1,47 @@
+.body-home {
+    margin: 0;
+    background-color: #111111;
+}
+
+.main-info {
+    padding-bottom: 20px;
+    padding-inline: 200px;
+}
+
+.info-heading {
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+
+.heading-text {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info-heading2 {
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.div-text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.info-links {
+    color: #FFFFFF;
+}
+
+.info-link {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.info-text {
+    color: #FFFFFF;
+}

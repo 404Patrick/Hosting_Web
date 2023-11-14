@@ -1,0 +1,212 @@
+.body-home {
+    margin: 0;
+    background-color: #111111;
+}
+
+.main-page-info {
+    background-image: url("/assets/images/cloud-background.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    padding: 54px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 20px
+}
+
+.main-heading {
+    color: #FFFFFF;
+    font-size: 52px;
+    margin: unset;
+}
+
+.main-page-info h2 {
+    font-size: 32px;
+}
+
+.main-page-info p {
+    font-size: 24px;
+}
+
+.services-heading, .social-media-heading, .registration-heading{
+    font-size: 52px;
+    text-align: center;
+}
+
+.main-page-services {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.service-item {
+    border-style: solid;
+    border-color: #0dc5ff;
+    border-width: 2px;
+    width: 20%;
+    text-align: center;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.service-item h2 {
+    font-size: 32px;
+}
+
+.service-item p {
+    font-size: 24px;
+}
+
+.service-description {
+    list-style: none;
+    padding: 4px;
+    font-size: 18px;
+}
+
+.service-description li {
+    margin: 8px;
+}
+
+.service-btn-buy {
+    width:150px ;
+    height:30px ;
+    margin-bottom: 24px;
+    font-size: 18px;
+    border: solid 2px #000000;
+    border-radius: 8px;
+}
+
+.service-btn-buy:hover {
+    color: #FFFFFF;
+    background-color: #818181;
+}
+
+.service-item.recommended {
+    box-shadow: 10px -10px #ffc400;
+}
+
+.heading-recommended {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.social-media-heading {
+    color: #FFFFFF;
+}
+
+.social-media-items{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.fa {
+    font-size: 40px;
+}
+
+.fa:hover {
+    color: rgba(13, 197, 255, 1);
+}
+
+.social-media-item {
+    width: 30%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.body-contacts {
+    margin: 0;
+    background-color: #111111;
+
+}
+
+.image-ceo {
+    float: right;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.image-manager {
+    float: left;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.image-founder {
+    float: right;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.ul-contacts {
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.div-contacts {
+    margin: 15%;
+    color: white;
+    padding-inline: 10%;
+}
+
+.div-contacts-2 {
+    margin: 15%;
+    color: white;
+    padding-inline: 10%;
+}
+
+.div-contacts-2 h2 {
+    text-align: left;
+}
+.div-contacts h2 {
+    text-align: left;
+    margin: 40px;
+}
+.div-contacts h3 {
+    text-align: left;
+    margin-left: 40px;
+}
+
+hr {
+    margin: 0px 300px 0px 300px;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.services-heading {
+    color: #FFFFFF;
+}
+
+.services-container {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.service-card {
+    border: solid 2px #FFFFFF;
+    padding: 20px;
+    width: 600px;
+    margin: 40px auto auto auto;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.service-card:hover {
+    border-color: #0dc5ff;
+}
+
+.service-card h3 {
+    color: #0dc5ff;
+}
+
+.body-services {
+    margin: 0;
+    background-color: #111111;
+}
