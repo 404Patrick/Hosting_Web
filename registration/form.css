@@ -1,8 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
 .sign-up-form label,
 .sign-up-form select,
-.sign-up-form input {
+.sign-up-form input[type="text"],
+.sign-up-form input[type="password"],
+.sign-up-form input[type="email"],
+.sign-up-form input[type="date"] {
     display: block;
     margin-top: 15px;
+    width: 100%;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.sign-up-form input[type="text"]:focus,
+.sign-up-form input[type="email"]:focus,
+.sign-up-form input[type="date"]:focus,
+.sign-up-form input[type="password"]:focus {
+    background-color: #FFFFFF;
+    border-bottom:  4px solid #0dc5ff;
+    outline: none;
+}
+
+.sign-up-form input[type="date"] {
+    font-family: inherit;
+}
+
+.sign-up-form input[type="submit"] {
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 10px;
     width: 100%;
 }
 
@@ -26,5 +55,52 @@
 .sign-up-form input,
 .sign-up-form select {
     padding: 4px;
+}
 
+.checkbox-container {
+    display: flex;
+    align-self: center;
+    padding-top: 4px;
+    margin-top: 15px;
+}
+
+.checkbox-container label {
+    margin: 0;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox-container input[type="submit"]:hover {
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    margin-top: 15px;
+}
+
+.submit-button {
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+}
+
+.submit-button:hover {
+    background-color: #0dc5ff;
+    color: #FFFFFF;
 }
